@@ -1,0 +1,40 @@
+<html>  
+<head><link rel="stylesheet" href="web.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+<h1 class="text-center"> BUS SYSTEM</h1>  
+<div class="AdminPanel border border-info shadow-lg p-3 mb-5 bg-body rounded ">
+<h3 class="text-center">Admin Panel</h3>
+<form action="AdminData1" method="Get">  
+  UserName:<input type="text" class="form-control" name="Adname"><br></br>
+  Password:<input type="password" class="form-control" name="Adpass"><br></br>
+  
+<input type="submit"  class="btn btn-dark" value="LogIn"/>  
+</form>
+ </div>
+ <div class="UserPanel border border-info shadow-lg p-3 mb-5 bg-body rounded">
+ <h3 class="text-center">NEW USER</h3>
+ <h4 class="text-center">SIGN UP</h4>
+ <form action="UserData1" method="post"> 
+  UserName:<input type="text" class="form-control mt-1" name="UserName"><br></br>
+  Age:<input type="number" class="form-control mt-1" name="UserAge"><br></br>
+  Gender:<input type="text" class="form-control mt-1" name="UserGender"><br></br>
+  Password:<input type="password" class="form-control mt-1" name="UserPwd"><br></br>
+  <input type="submit" class="btn btn-dark"  value="SingUp"> <br></br>
+ </form>
+  </div>
+ <h3></h3><div class=" border border-info shadow-lg p-3 mb-5 bg-body rounded" >
+ <form action="UserLogin1" method="get"> 
+ 
+ <h3 class="text-center" >I HAVE ACCOUNT</h3>
+   <H4 class="text-center">SING IN</H4>
+  UserName:<input type="text" name="AdName"><br></br>
+  PASSWORD:<input type="password" name="AdPass"><br></br>
+  <input type="submit"  class="btn btn-dark" value="SignIn"> <br></br>
+ </form>
+ </div>
+
+</body>  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html> 
